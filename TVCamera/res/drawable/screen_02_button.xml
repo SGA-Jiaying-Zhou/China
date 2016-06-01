@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_pressed="true"
+ android:drawable="@drawable/screen_02_pressed_bg"></item>
+ <item android:state_focused="true"
+ android:drawable="@drawable/screen_02_focus_bg"></item>
+ <item android:state_enabled="false"
+     android:drawable="@drawable/screen_02_disable" />
+ <item android:drawable="@drawable/screen_02_normal"></item>
+</selector>

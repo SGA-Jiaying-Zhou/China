@@ -1,0 +1,22 @@
+{
+  "targetHost": "com.sony.dtv.tvcamera/com.sony.dtv.tvcamera.app.PhotoActivity",
+  "priority":"1",
+    "card":[
+        {
+            "color":"rgba(0,0,0,0.15)",
+            "headerItem":{
+                "designTemplate":"preview_layout",
+                "titleText":"id:string:app_name",
+                "titleImagePath":"id:drawable:am_tvcamera"
+            },
+            "actionItem":[
+                {
+                    "action":"CLOSE_TVCAMERA",
+                    "actionItemText":"id:string:app_exit",
+                    "closeAfterDispatch":"true"
+                }
+            ],
+            "state":"stateDefault"
+        }
+    ]
+}

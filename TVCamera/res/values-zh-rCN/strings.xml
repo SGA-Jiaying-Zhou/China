@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" sony_id="81814">电视摄像机</string>
+    <string name="intro_title" sony_id="81814">电视摄像机</string>
+    <string name="content_title" sony_id="81814">电视摄像机</string>
+    <string name="smile_shutter" sony_id="82257">笑脸快门</string>
+    <string name="intro_description_line1" sony_id="81811">使您的电视观赏体验难忘刺激！</string>
+    <string name="card_description" sony_id="81811">使您的电视观赏体验难忘刺激！</string>
+    <string name="intro_description_line2" sony_id="81812">该应用程序将捕获您的动作并显示在电视上。</string>
+    <string name="intro_description_line3" sony_id="81813">通过将您的动作视频存储到 USB 存储设备然后永久珍存起来，令这美好时刻更加难忘。</string>
+    <string name="intro_description_line4" sony_id="82231">摄像头需用户另行购买。具体产品信息您可拨打索尼客服热线4008109000或扫描屏幕中二维码进入索尼官网相关页面了解。</string>
+
+    <string name="rec_start" sony_id="61178">开始录制</string>
+    <string name="rec_stop" sony_id="35355">停止录制</string>
+
+    <string name="shoot" sony_id="82172">拍摄</string>
+
+    <string name="return_to_tv" sony_id="4">取消</string>
+    <string name="save" sony_id="82174">保存</string>
+
+    <string name="settings_app_name"/>
+    
+    <string name="video_settings" sony_id="82051">视频设置</string>
+    <string name="title_video_size" sony_id="82052">视频大小</string>
+    <string name="video_quality" sony_id="82053">视频画质</string>
+    <string name="title_video_quality" sony_id="82053">视频画质</string>
+    <string name="video_destination" sony_id="82054">保存路径</string>
+    <string name="title_video_destination" sony_id="82054">保存路径</string>
+    <string name="dialog_title" sony_id="82068">注意</string>
+    <string name="no_camera" sony_id="82128">电视摄像机应用只有在插入摄像头后才能使用。</string>
+    <string name="camera_terminate" sony_id="82070">摄像头已被拔出。</string>
+    <string name="u_disk_pulled_out" sony_id="82071">USB 存储设备已被拔出。</string>
+    <string name="memory_little" sony_id="82072">USB 存储空间不足 30 MB，录像已自动停止。请清理存储空间后重试。</string>
+    <string name="memory_little_tip" sony_id="82073">不能录像。USB 存储空间低于 30 MB。</string>
+    <string name="no_usb" sony_id="82083">USB 存储设备未插入，录像功能现在不可用。</string>
+    <string name="memory_little_photo" sony_id="82196">照片拍摄因 USB 存储设备空间少于 3 MB 而停止。请释放空间，然后重试。</string>
+    <string name="memory_little_tip_photo" sony_id="82197">无法拍摄照片。USB 存储设备空间少于 3 MB。</string>
+    <string name="no_usb_photo" sony_id="82198">无法拍摄照片。请连接 USB 存储设备。</string>
+    <string name="memory_little_smile_shutter" sony_id="82203">笑脸快门功能因 USB 存储设备空间少于 3 MB 而停止。请释放空间，然后重试。</string>
+    <string name="memory_little_tip_smile_shutter" sony_id="82204">无法使用笑脸快门功能。USB 存储设备空间少于 3 MB。</string>
+    <string name="no_usb_smile_shutter" sony_id="82205">笑脸快门功能已停止。请连接 USB 存储设备。</string>
+    <string name="load_tvcamera" sony_id="64546">正在加载...</string>
+
+    <string name="video_quality_high" sony_id="82055">高</string>
+    <string name="video_quality_middle" sony_id="82056">中</string>
+    <string name="video_quality_low" sony_id="82057">低</string>
+
+    <string name="app_start" sony_id="82208">启动电视摄像机</string>
+    <string name="app_exit" sony_id="82209">关闭电视摄像机</string>
+    <string name="smile_shutter_start" sony_id="82171">启动笑脸快门</string>
+    <string name="close_smile_shutter_start" sony_id="82175">关闭笑脸快门</string>
+
+    <string name="app_exit_button" sony_id="2004">退出</string>
+    <string name="dialog_ok" sony_id="50724">确定</string>
+    <string name="help_text" sony_id="82119">设置视频文件的格式（图像大小，清晰度及保存路径）。</string>
+    <string name="usb_error" sony_id="82120">文件创建失败。</string>
+    <string name="read_only" sony_id="82121">USB 存储设备只读。请关闭写保护后重试。</string>
+
+    <string name="setting_msg" sony_id="81814">电视摄像机</string>
+    <string name="setting_title" sony_id="82176">照片设置</string>
+
+    <string name="smile_shutter_title" sony_id="82257">笑脸快门</string>
+    <string name="smile_shutter_on" sony_id="35242">开</string>
+    <string name="smile_shutter_off" sony_id="35243">关</string>
+    <string-array name="smile_shutter_entries">
+        <item>@string/smile_shutter_on</item>
+        <item>@string/smile_shutter_off</item>
+    </string-array>
+    <string-array name="smile_shutter_entryValues">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+
+    <string name="picture_size_title" sony_id="82258">照片大小</string>
+    <string name="picture_size_fhd">1920 x 1080</string>
+    <string name="picture_size_hd">1280 x 720</string>
+    <string name="picture_size_vga">640 x 360</string>
+    <string-array name="picture_size_entries">
+        <item>@string/picture_size_fhd</item>
+        <item>@string/picture_size_hd</item>
+        <item>@string/picture_size_vga</item>
+    </string-array>
+    <string-array name="picture_size_entryValues">
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 360</item>
+    </string-array>
+    
+    <string name="photo_destination_title" sony_id="82054">保存路径</string>
+    
+    <string name="smile_shutter_tip" sony_id="82177">要使用笑脸快门，必须打开笑脸快门设置。</string>
+    
+    <string name="enter_button" sony_id="82178">转至设置</string>
+    <string name="smile_intro_title" sony_id="82179">使用笑脸快门功能捕捉微笑的脸庞</string>
+    <string name="smile_intro_description_line1" sony_id="82180">使用笑脸快门技术来记录微笑的瞬间。</string>
+    <string name="smile_intro_description_line2" sony_id="82181">照相机能探测出最多5个人脸，并从中选择一个作为笑脸追踪及自动对焦的目标。</string>
+    <string name="smile_intro_description_line3" sony_id="82182">当选择的人脸露出微笑，照相机会自动拍照。</string>
+    <string name="smile_intro_description_line4" sony_id="82366">您能使用相册应用欣赏拍摄的照片。相册应用可以在主界面及内容条中启动。</string>
+
+    <string name="tv_camera_is_abnormal" sony_id="82199">未知错误。请稍后再试。</string>
+    <string name="camera_device_open_failed" sony_id="82200">摄像头异常。请稍后再试。</string>
+    <string name="camera_device_initialization_failed" sony_id="82200">摄像头异常。请稍后再试。</string>
+    <string name="camera_device_is_busy" sony_id="82201">其他应用程序正在使用摄像头。请停止应用程序，然后重试。</string>
+    <string name="camera_recognition_is_already_opened" sony_id="82199">未知错误。请稍后再试。</string>
+
+    <string name="smile_shutter_tv_camera_is_abnormal" sony_id="82206">笑脸快门功能已停止。出现错误。请稍后再试。</string>
+    <string name="smile_shutter_camera_device_open_failed" sony_id="82207">无法启动笑脸快门。请稍后再试。</string>
+    <string name="smile_shutter_camera_device_initialization_failed" sony_id="82207">无法启动笑脸快门。请稍后再试。</string>
+    <string name="smile_shutter_camera_device_is_busy" sony_id="82207">无法启动笑脸快门。请稍后再试。</string>
+    <string name="smile_shutter_camera_recognition_is_already_opened" sony_id="82207">无法启动笑脸快门。请稍后再试。</string>
+    <string name="smile_shutter_camera_terminate" sony_id="82230">笑脸快门功能因摄像头断开连接而停止。</string>
+
+    <string name="camera_mode_name" sony_id="82163">支持的摄像头型号: CMU-BR300</string>
+
+    <string name="not_supported_camera">摄像头型号不支持。</string>
+    <string name="intro_description_for_dialog" >摄像头需用户另行购买。具体产品信息您可拨打索尼客服热线4008109000。</string>
+
+    <string name="video" sony_id="31106">视频</string>
+    <string name="photo" sony_id="31107">照片</string>
+
+    <string name="start_security_camera" sony_id="82362">启动家庭安全摄像</string>
+    <string name="stop_security_camera" sony_id="82363">关闭家庭安全摄像</string>
+    <string name="tv_camera_settings" sony_id="82364">电视摄像机设置</string>
+
+    <string name="camera_settings" sony_id="1120">设置</string>
+
+    <string name="start"  sony_id="52">开始</string>
+    <string name="cancel" sony_id="4">取消</string>
+
+    <string name="security_camera_title" sony_id="82341">家庭安全摄像</string>
+    <string name="security_camera_content_line1" sony_id="82342">当您离开家的时候，是否会担心家里的情况？</string>
+    <string name="security_camera_content_line2_3_4" sony_id="82368">启用该功能，当电视机处于待机状态时，电视机的摄像头会监测其拍摄范围内的移动物体，并自动拍摄记录30秒钟的影像。</string>
+    <string name="security_camera_content_line5" sony_id="82346">您可以通过电视机中的相册或视频应用来查看保存在您外接 USB 存储设备中的这些影像内容。</string>
+    <string name="security_camera_content_line6" sony_id="82347">注意：</string>
+    <string name="security_camera_content_line7" sony_id="82348">拍摄的影像仅保存在您外接的 USB 存储设备中，索尼不会收集、保存、转发或使用这些拍摄的影像。</string>
+    <string name="security_camera_content_line8" sony_id="82349">该功能只在电视处于待机状态下才可用。您可以从快捷窗口中选择[电视摄像机]设置该功能。</string>
+
+    <string name="security_camera_content_line9" sony_id="82367">您能使用相册应用欣赏拍摄的视频。相册应用可以在主界面及内容条中启动。</string>
+
+    <string name="photo_setting_sub_content" sony_id="82350">设置 拍照/笑脸快门</string>
+    <string name="video_setting_sub_content" sony_id="82351">设置 摄像/家庭安全摄像</string>
+
+    <string name="security_camera_no_usb_dialog" sony_id="82352">无法使用家庭安全摄像功能。请连接 USB 存储设备。</string>
+    <string name="security_camera_usb_read_only_dialog" sony_id="82353">无法使用家庭安全摄像功能。USB 存储设备只读。请关闭写保护后重试。</string>
+    <string name="security_camera_memory_little_dialog" sony_id="82354">无法使用家庭安全摄像功能。USB 存储设备空间少于 50 MB。</string>
+    <string name="security_camera_no_camera_dialog" sony_id="82355">无法使用家庭安全摄像功能。请连接摄像头。</string>
+
+    <string name="security_camera_error_toast" sony_id="82356">家庭安全摄像功能已停止。出现错误。请稍后再试。</string>
+    <string name="security_camera_no_usb_toast" sony_id="82357">家庭安全摄像功能已停止。请连接 USB 存储设备。</string>
+    <string name="security_camera_usb_read_only_toast" sony_id="82358">家庭安全摄像功能已停止。USB 存储设备只读。请关闭写保护后重试。</string>
+    <string name="security_camera_memory_little_toast" sony_id="82359">家庭安全摄像功能已停止。USB 存储设备空间少于 50 MB。</string>
+    <string name="security_camera_no_camera_toast" sony_id="82360">家庭安全摄像功能已停止。请连接摄像头。</string>
+
+    <string name="security_camera_success" sony_id="82361">家庭安全摄像功能已录像。</string>
+    <string name="tv_camera_setting_hit" sony_id="82365">您能使用相册应用欣赏拍摄的视频及照片。</string>
+
+    <string name="permission1_prompt_title" sony_id="82731">欢迎使用 %s</string>
+    <string name="permission1_prompt_message" sony_id="82732">要开始体验，%s 需要访问:</string>
+    <string name="permission1_prompt_operation" sony_id="82733">选择 [授予访问权限]，然后选择 [允许] 开始使用此应用程序。</string>
+    <string name="permission1_edit" sony_id="82734">授予访问权限</string>
+    <string name="permission2_prompt_title" sony_id="82735">%s 需要您的权限</string>
+    <string name="permission2a_prompt_message" sony_id="82736">要继续，%s 需要您的权限来访问：</string>
+    <string name="permission2b_prompt_message" sony_id="82737">要执行此操作，%s 需要您的权限来访问：</string>
+    <string name="permission2_prompt_operation" sony_id="82738">选择 [编辑权限] > [权限] 授予权限。</string>
+    <string name="permission2_edit" sony_id="82739">编辑权限</string>
+    <string name="permission_cancel" sony_id="4">取消</string>
+    <string name="permission_toast" sony_id="82740">选择[权限]编辑权限</string>
+</resources>

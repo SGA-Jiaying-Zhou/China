@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/full_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black" >
+
+        <TextureView
+                android:id="@+id/camera_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+    </RelativeLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fragment_Preview"
+            android:layout_width="576dp"
+            android:layout_height="match_parent"
+            android:background="#CC242424">
+
+        </FrameLayout>
+
+        <com.sony.dtv.tvcamera.app.widget.FaceRecognitionView
+            android:id="@+id/face_recognition_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@+id/fragment_Setting"
+            android:layout_marginLeft="576dp"
+            android:layout_width="384dp"
+            android:layout_height="match_parent"
+            android:background="#F2242424">
+
+        </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/zhoujy/merge/FY16/China/TVCamera/assets"/></dataSet><dataSet config="release"><source path="/home/zhoujy/merge/FY16/China/TVCamera/build-types/release/assets"/></dataSet></merger>

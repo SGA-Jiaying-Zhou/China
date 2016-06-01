@@ -1,0 +1,18 @@
+apply plugin: 'findbugs'
+
+findbugs {
+    toolVersion = '3.0.+'
+}
+
+task findbugs(type: FindBugs) {
+    source = 'src'
+    ignoreFailures = true
+    effort = 'max'
+    excludeFilter = file("${project.rootDir}/config/netapp-findbugs-exclude.xml")
+    classes = files("${project.buildDir}/intermediates/classes")
+    classpath = files()
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+}

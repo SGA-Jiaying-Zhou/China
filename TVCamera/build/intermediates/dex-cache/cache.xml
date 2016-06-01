@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/com.sony.dtv.camera_recognition.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="db0f1a977e6152f081efd2ba90ed0c75e90086b7">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/com.sony.dtv.camera_recognition-67294adec7806c1fcec20bf9f279e327b822a5ba.jar" />
+    </item>
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b6c138ba72ce38beda559df33d369856854fd6f5">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/android-support-v4-ed0fefb452076dab8633f60dd06d1e276ef44a70.jar" />
+    </item>
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/sonytvproviderutil.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="22f0a799454be19eff7226da8914afe99274e281">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/sonytvproviderutil-69e3f362c2dc4d564279241978e37d195e04b482.jar" />
+    </item>
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/ModelVariationUtil.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="713fe0c945dde8a88688fd2de670609e03dc2f10">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/ModelVariationUtil-683b5b36aaac7bb4598ba6420a31e73ba2b4bfbe.jar" />
+    </item>
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/libTvDotActionExtensionProvider.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b76b6134b0430e4a043a4b699a39b447dc27b6a5">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/libTvDotActionExtensionProvider-31a73f02bc756a71136ed9da75858ecfe81458f8.jar" />
+    </item>
+    <item
+        jar="/home/zhoujy/merge/FY16/China/TVCamera/libs/com.sony.dtv.osdplanevisibilitymanager.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e845c4e55d4dfcd63cfd8124e013306e487c2f5b">
+        <dex dex="/home/zhoujy/merge/FY16/China/TVCamera/build/intermediates/pre-dexed/debug/com.sony.dtv.osdplanevisibilitymanager-9dc3b8f3c38362610175930ec45976db869f18df.jar" />
+    </item>
+
+</items>

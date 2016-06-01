@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/toast_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip"
+        android:paddingTop="24dip"
+        android:text="@string/not_supported_camera"
+        android:textColor="#ffffffff"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:linksClickable="false"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip"
+        android:text="@string/camera_mode_name"
+        android:textColor="#ffffffff"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip"
+        android:text="@string/intro_description_line4"
+        android:textColor="@color/c1"
+        android:textSize="13dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/tv_white"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/cli_100px" />
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/layout/not_compatible_camera_dialog.xml -->

@@ -1,0 +1,13 @@
+apply plugin: 'checkstyle'
+
+checkstyle {
+  toolVersion = '6.7'
+}
+
+task checkstyle(type: Checkstyle) {
+  configFile file("${project.rootDir}/config/netapp-checkstyle.xml")
+  source 'src/main/java'
+  include '**/*.java'
+  classpath = files()
+  ignoreFailures = true
+}

@@ -1,0 +1,78 @@
+# view AndroidManifest.xml #generated:36
+-keep class android.support.v4.content.FileProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.sony.dtv.tvcamera.app.CameraRecognitionService { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.sony.dtv.tvcamera.app.EnjoyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.sony.dtv.tvcamera.app.MirrorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.sony.dtv.tvcamera.app.PhotoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.sony.dtv.tvcamera.app.PhotoSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.sony.dtv.tvcamera.app.PreMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.sony.dtv.tvcamera.app.SecCameraIntroActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.sony.dtv.tvcamera.app.SecurityCameraService { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.sony.dtv.tvcamera.app.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.sony.dtv.tvcamera.app.SmileIntroActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.sony.dtv.tvcamera.app.SonyCameraNotifyService { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.sony.dtv.tvcamera.app.TVCameraApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.sony.dtv.tvcamera.app.TVCameraSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.sony.dtv.tvcamera.app.permission.CriticalPermissionPromptActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.sony.dtv.tvcamera.app.permission.ManageCriticalPermissionExtActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.sony.dtv.tvcamera.app.permission.NoncriticalPermissionPromptActivity { <init>(...); }
+
+# view res/layout/photo_settings_list.xml #generated:16
+-keep class com.sony.dtv.tvcamera.app.photosetting.OptionListView { <init>(...); }
+
+# view res/layout/content_fragment.xml #generated:17
+-keep class com.sony.dtv.tvcamera.app.settings.widget.FrameLayoutWithShadows { <init>(...); }
+
+# view res/layout/settings_list.xml #generated:30
+-keep class com.sony.dtv.tvcamera.app.settings.widget.ScrollAdapterView { <init>(...); }
+
+# view res/layout/photo_setting.xml #generated:32
+-keep class com.sony.dtv.tvcamera.app.widget.FaceRecognitionView { <init>(...); }
+
+# view res/layout/camera_full_photo.xml #generated:142
+-keep class com.sony.dtv.tvcamera.app.widget.RoundProgressBar { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.sony.dtv.tvcamera.extension.CameraExtension { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.sony.dtv.tvcamera.extension.PhotoExtension { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.sony.dtv.tvcamera.extension.TvAppExtension { <init>(...); }
+
+# view AndroidManifest.xml #generated:154
+-keep class com.sony.dtv.tvcamera.notification.BootReceiver { <init>(...); }
+

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ModelVariationUtil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/ModelVariationUtil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/permission_prompt_background_color">
+
+    <LinearLayout
+        android:id="@+id/agreement_content"
+        android:layout_width="626dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingStart="56dp"
+        android:paddingEnd="34dp">
+
+        <TextView
+            android:id="@+id/permission_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="36sp"
+            android:textColor="@color/permission_text_color_10"
+            android:fontFamily="sans-serif-thin" />
+
+        <TextView
+            android:id="@+id/permission_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="@color/permission_text_color_06"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:id="@+id/permission_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="@color/permission_text_color_06"
+            android:fontFamily="sans-serif-light" />
+
+        <TextView
+            android:id="@+id/permission_operation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:textColor="@color/permission_text_color_04"
+            android:fontFamily="sans-serif-light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_Panel"
+        android:orientation="vertical"
+        android:layout_width="334dp"
+        android:layout_height="match_parent"
+        android:paddingTop="253dp"
+        android:clipToPadding="false">
+
+        <Button
+            android:id="@+id/btn_agree"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:minHeight="22dp"
+            android:layout_marginBottom="33dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="56dp"
+            android:text="@string/permission2_edit"
+            style="@style/Custom_Permission_Button_Style"/>
+
+        <Button
+            android:id="@+id/btn_disagree"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:minHeight="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="56dp"
+            android:text="@string/permission_cancel"
+            style="@style/Custom_Permission_Button_Style" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/layout/activity_permission.xml -->

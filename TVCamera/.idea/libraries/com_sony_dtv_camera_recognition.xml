@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.sony.dtv.camera_recognition">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/com.sony.dtv.camera_recognition.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

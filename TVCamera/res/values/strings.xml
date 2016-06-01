@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" sony_id="81814">TV Camera</string>
+    <string name="intro_title" sony_id="81814">TV Camera</string>
+    <string name="content_title" sony_id="81814">TV Camera</string>
+    <string name="smile_shutter" sony_id="82257">Smile Shutter</string>
+    <string name="intro_description_line1" sony_id="81811">Make your TV watching experience memorable and exciting!</string>
+    <string name="card_description" sony_id="81811">Make your TV watching experience memorable and exciting!</string>
+    <string name="intro_description_line2" sony_id="81812">Your actions will be captured by this application and displayed on TV.</string>
+    <string name="intro_description_line3" sony_id="81813">Make the moment more memorable by storing your action video to USB storage device and cherish it forever.</string>
+    <string name="intro_description_line4" sony_id="82231">TV camera needs to be purchased separately. Please call 4008109000 for product information, or scan QR code to get more information from Sony China website.</string>
+
+    <string name="rec_start" sony_id="61178">REC Start</string>
+    <string name="rec_stop" sony_id="35355">REC stop</string>
+
+    <string name="shoot" sony_id="82172">Shoot</string>
+
+    <string name="return_to_tv" sony_id="4">Cancel</string>
+    <string name="save" sony_id="82174">Save</string>
+
+    <string name="settings_app_name"/>
+    <string name="settings_on" translatable="false">on</string>
+    <string name="settings_off" translatable="false">off</string>
+    <string name="settings_ok" translatable="false">ok</string>
+    <string name="settings_cancel" translatable="false">cancel</string>
+    
+    <string name="video_settings" sony_id="82051">Video settings</string>
+    <string name="title_video_size" sony_id="82052">Video size</string>
+    <string name="video_quality" sony_id="82053">Video quality</string>
+    <string name="title_video_quality" sony_id="82053">Video quality</string>
+    <string name="video_destination" sony_id="82054">Destination</string>
+    <string name="title_video_destination" sony_id="82054">Destination</string>
+    <string name="dialog_title" sony_id="82068">Notice</string>
+    <string name="no_camera" sony_id="82128">This TV Camera app is available only when camera is connected to this TV.</string>
+    <string name="camera_terminate" sony_id="82070">The camera has been disconnected.</string>
+    <string name="u_disk_pulled_out" sony_id="82071">USB storage device has been disconnected.</string>
+    <string name="memory_little" sony_id="82072">Recording has stopped because the USB storage space is less than 30 MB. Please free space and try again.</string>
+    <string name="memory_little_tip" sony_id="82073">Cannot record video. USB storage device space is less than 30 MB.</string>
+    <string name="no_usb" sony_id="82083">USB storage device is not connected. Recording feature is currently unavailable.</string>
+    <string name="memory_little_photo" sony_id="82196">Photo capturing stopped because the USB storage device space is less than 3 MB. Please free space and try again.</string>
+    <string name="memory_little_tip_photo" sony_id="82197">Cannot capture photos. USB storage device space is less than 3 MB.</string>
+    <string name="no_usb_photo" sony_id="82198">Cannot capture photos. Please connect USB storage device.</string>
+    <string name="memory_little_smile_shutter" sony_id="82203">Smile Shutter is suspended because the USB storage device space is less than 3 MB. Please free space and try again.</string>
+    <string name="memory_little_tip_smile_shutter" sony_id="82204">Cannot use Smile Shutter. USB storage device space is less than 3 MB.</string>
+    <string name="no_usb_smile_shutter" sony_id="82205">Smile Shutter is suspended. Please connect USB storage device.</string>
+    <string name="load_tvcamera" sony_id="64546">Loading...</string>
+
+    <string name="video_quality_high" sony_id="82055">High</string>
+    <string name="video_quality_middle" sony_id="82056">Middle</string>
+    <string name="video_quality_low" sony_id="82057">Low</string>
+
+    <string name="app_start" sony_id="82208">Start TV Camera</string>
+    <string name="app_exit" sony_id="82209">Close TV Camera</string>
+    <string name="app_exit_button" sony_id="2004">Exit</string>
+    <string name="smile_shutter_start" sony_id="82171">Start Smile Shutter</string>
+    <string name="close_smile_shutter_start" sony_id="82175">Close Smile Shutter</string>
+
+    <string name="dialog_ok" sony_id="50724">OK</string>
+    <string name="help_text" sony_id="82119">Set up the destination and video file format (size, bitrate) of recordings.</string>
+    <string name="usb_error" sony_id="82120">File cannot be created.</string>
+    <string name="read_only" sony_id="82121">USB storage device is read-only. Please remove the write-protection and try again.</string>
+
+    <string name="setting_msg" sony_id="81814">TV Camera</string>
+    <string name="setting_title" sony_id="82176">Photo settings</string>
+
+    <string name="smile_shutter_title" sony_id="82257">Smile Shutter</string>
+    <string name="smile_shutter_on" sony_id="35242">On</string>
+    <string name="smile_shutter_off" sony_id="35243">Off</string>
+    <string-array name="smile_shutter_entries">
+        <item>@string/smile_shutter_on</item>
+        <item>@string/smile_shutter_off</item>
+    </string-array>
+    <string-array name="smile_shutter_entryValues">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <string name="smile_shutter_defValue" translatable="false">Off</string>
+
+    <string name="picture_size_title" sony_id="82258">Photo size</string>
+    <string name="picture_size_fhd">1920 x 1080</string>
+    <string name="picture_size_hd">1280 x 720</string>
+    <string name="picture_size_vga">640 x 360</string>
+    <string-array name="picture_size_entries">
+        <item>@string/picture_size_fhd</item>
+        <item>@string/picture_size_hd</item>
+        <item>@string/picture_size_vga</item>
+    </string-array>
+    <string-array name="picture_size_entryValues">
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 360</item>
+    </string-array>
+    <string name="picture_size_defValue" translatable="false">1920 x 1080</string>
+    
+    <string name="photo_destination_title" sony_id="82054">Destination</string>
+    
+    <string name="smile_shutter_tip" sony_id="82177">To use Smile Shutter, you must turn the Smile Shutter setting on.</string>
+    
+    <string name="enter_button" sony_id="82178">Go to settings</string>
+    <string name="smile_intro_title" sony_id="82179">Using Smile Shutter™ to capture smiling faces</string>
+    <string name="smile_intro_description_line1" sony_id="82180">Use Smile Shutter™ technology to photograph a face just as it smiles.</string>
+    <string name="smile_intro_description_line2" sony_id="82181">The camera detects up to five faces and selects one face for smile detection and auto focus.</string>
+    <string name="smile_intro_description_line3" sony_id="82182">When the selected face smiles, the camera automatically takes a photo.</string>
+    <string name="smile_intro_description_line4" sony_id="82366">You can use Album app to see taken photos. Album app can launched from Home menu or Content Bar.</string>
+
+    <string name="tv_camera_is_abnormal" sony_id="82199">Unknown error. Please try again later.</string>
+    <string name="camera_device_open_failed" sony_id="82200">Camera is not properly activated. Please try again later.</string>
+    <string name="camera_device_initialization_failed" sony_id="82200">Camera is not properly activated. Please try again later.</string>
+    <string name="camera_device_is_busy" sony_id="82201">Another app is using the camera. Stop running applications and try again.</string>
+    <string name="camera_recognition_is_already_opened" sony_id="82199">Unknown error. Please try again later.</string>
+
+    <string name="smile_shutter_tv_camera_is_abnormal" sony_id="82206">Smile Shutter is suspended. An error has occurred. Please try again later.</string>
+    <string name="smile_shutter_camera_device_open_failed" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_device_initialization_failed" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_device_is_busy" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_recognition_is_already_opened" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_terminate" sony_id="82230">Smile Shutter is suspended because a camera has been disconnected.</string>
+
+    <string name="camera_mode_name" sony_id="82163">Supported Camera: CMU-BR300</string>
+
+    <string name="not_supported_camera">Camera type is not supported.</string>
+    <string name="intro_description_for_dialog">TV camera needs to be purchased separately. Please call 4008109000 for product information.</string>
+
+    <string name="video" sony_id="31106">Video</string>
+    <string name="photo" sony_id="31107">Photo</string>
+
+    <string name="start_security_camera" sony_id="82362">Start Presence detector</string>
+    <string name="stop_security_camera" sony_id="82363">Stop Presence detector</string>
+    <string name="tv_camera_settings" sony_id="82364">TV Camera settings</string>
+
+    <string name="camera_settings" sony_id="1120">Settings</string>
+
+    <string name="start" sony_id="52">Start</string>
+    <string name="cancel" sony_id="4">Cancel</string>
+
+    <string name="security_camera_title" sony_id="82341">Presence detector</string>
+    <string name="security_camera_content_line1" sony_id="82342">No more worries while you are away from your home.</string>
+    <string name="security_camera_content_line2_3_4" sony_id="82368">With this app, your TV camera will monitor and record your room. When something comes in front of your TV or anything moves, a TV camera automatically starts recording for 30 second while TV is on sleep or during standby.</string>
+    <string name="security_camera_content_line5" sony_id="82346">You can check recordings from Album app, or Video row in Content Bar.</string>
+    <string name="security_camera_content_line6" sony_id="82347">Notice:</string>
+    <string name="security_camera_content_line7" sony_id="82348">* Recorded data will be saved in an external USB storage device and cannot be transferred from the TV via a network.</string>
+    <string name="security_camera_content_line8" sony_id="82349">** This feature is available only when your TV is inactive. Please select [TV Camera] from the Action Menu to set up this app.</string>
+
+    <string name="security_camera_content_line9" sony_id="82367">You can use Album app to watch taken videos. Album app can launched from Home menu or Content Bar.</string>
+
+    <string name="photo_setting_sub_content" sony_id="82350">For Photo/Smile Shutter Feature</string>
+    <string name="video_setting_sub_content" sony_id="82351">For Video/Presence detector Feature</string>
+
+    <string name="security_camera_no_usb_dialog" sony_id="82352">Cannot use Presence detector. Please connect USB storage device.</string>
+    <string name="security_camera_usb_read_only_dialog" sony_id="82353">Cannot use Presence detector. USB storage device is read-only. Please remove the write-protection and try again.</string>
+    <string name="security_camera_memory_little_dialog" sony_id="82354">Cannot use Presence detector. USB storage device space is less than 50 MB.</string>
+    <string name="security_camera_no_camera_dialog" sony_id="82355">Cannot use Presence detector. Please connect a camera.</string>
+
+    <string name="security_camera_error_toast" sony_id="82356">Presence detector is suspended. An error has occurred. Please try again later.</string>
+    <string name="security_camera_no_usb_toast" sony_id="82357">Presence detector is suspended. Please connect USB storage device.</string>
+    <string name="security_camera_usb_read_only_toast" sony_id="82358">Presence detector is suspended. USB storage device is read-only. Please remove the write-protection and try again.</string>
+    <string name="security_camera_memory_little_toast" sony_id="82359">Presence detector is suspended. USB storage device space is less than 50 MB.</string>
+    <string name="security_camera_no_camera_toast" sony_id="82360">Presence detector is suspended. Please connect a camera.</string>
+
+    <string name="security_camera_success" sony_id="82361">Presence detector has recorded a video.</string>
+    <string name="tv_camera_setting_hit" sony_id="82365">You can use Album app to watch recorded videos and photos.</string>
+
+    <string name="permission1_prompt_title" formatted="false" sony_id="82731">Welcome to %s</string>
+    <string name="permission1_prompt_message" formatted="false" sony_id="82732">To get started, %s needs access to:</string>
+    <string name="permission1_prompt_operation" sony_id="82733">Select [Give access] and then select [Allow] to begin using this app.</string>
+    <string name="permission1_edit" formatted="false" sony_id="82734">Give access</string>
+    <string name="permission2_prompt_title" sony_id="82735">%s needs your permission</string>
+    <string name="permission2a_prompt_message" formatted="false" sony_id="82736">To continue, %s needs your permission to access:</string>
+    <string name="permission2b_prompt_message" formatted="false" sony_id="82737">To perform this action, %s needs your permission to access:</string>
+    <string name="permission2_prompt_operation" sony_id="82738">Select [Edit Permissions] > [Permissions] to grant permission.</string>
+    <string name="permission2_edit" sony_id="82739">Edit permissions</string>
+    <string name="permission_cancel" sony_id="4">Cancel</string>
+    <string name="permission_toast" sony_id="82740">Select [Permissions] to edit permissions</string>
+</resources>

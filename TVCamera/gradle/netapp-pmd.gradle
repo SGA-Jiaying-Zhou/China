@@ -1,0 +1,20 @@
+/**
+ * PMD gradle script for all projects in NetApp.
+ */
+apply plugin: 'pmd'
+
+pmd {
+    toolVersion '5.4.1'
+    ignoreFailures = true
+    consoleOutput = true
+    ruleSetFiles = files("$rootDir/config/netapp-pmd.xml")
+    ruleSets = []  // To apply only the custom rules
+}
+
+task pmd(type: Pmd) {
+    group = 'NetApp'
+    description = 'Run static analysis - PMD'
+    source = fileTree('src/main/java')
+    include '**/*.java'
+}
+

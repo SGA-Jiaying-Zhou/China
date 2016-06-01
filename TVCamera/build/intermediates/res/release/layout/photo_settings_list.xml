@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/view_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PhotoSettingsCustomTopic"
+        android:text="topic"
+        android:focusable="false"
+        android:visibility="invisible"/>
+
+    <com.sony.dtv.tvcamera.app.photosetting.OptionListView
+        android:id="@+id/list"
+        android:divider="@null"
+        android:listSelector="@drawable/custom_background"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.sony.dtv.tvcamera.app.photosetting.OptionListView>
+
+</LinearLayout><!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/layout/photo_settings_list.xml -->

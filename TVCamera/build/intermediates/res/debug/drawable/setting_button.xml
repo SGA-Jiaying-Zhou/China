@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_pressed="true"
+ android:drawable="@drawable/setting_pressed_bg"></item>
+ <item android:state_focused="true"
+ android:drawable="@drawable/setting_focus_bg"></item>
+ <item android:state_enabled="false"
+     android:drawable="@drawable/setting_disable" />
+ <item android:drawable="@drawable/setting_normal"></item>
+</selector><!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/drawable/setting_button.xml -->

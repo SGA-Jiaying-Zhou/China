@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<!--
+    Checkstyle-Configuration: NetApp
+-->
+<module name="Checker">
+  <property name="charset" value="UTF-8"/>
+  <property name="severity" value="warning"/>
+
+  <!-- Javadoc Comments (1) -->
+  <module name="JavadocPackage" />
+
+  <!-- Size Violations (1) -->
+  <module name="FileLength">
+    <property name="severity" value="warning"/>
+    <property name="max" value="1000"/>
+  </module>
+
+  <!-- Whitespace (1) -->
+  <module name="FileTabCharacter"/>
+  <module name="RegexpSingleline">
+    <property name="format" value="\s+$"/>
+    <property name="message" value="Line has trailing spaces."/>
+  </module>
+
+  <!-- Miscellaneous (1) -->
+  <module name="NewlineAtEndOfFile">
+    <property name="severity" value="error"/>
+    <property name="lineSeparator" value="lf"/>
+  </module>
+
+  <!-- Suppress warnings for the specified line -->
+  <module name="SuppressWithNearbyCommentFilter">
+    <property name="commentFormat" value="SUPPRESS CHECKSTYLE \(Reason: \p{Print}+\)"/>
+  </module>
+
+  <!-- With SuppressWarningsHolder in TreeWalker module,
+       "@SuppressWarnings" will be enabled in Java code -->
+  <module name="SuppressWarningsFilter" />
+
+  <module name="TreeWalker">
+    <!-- Size Violations (2) -->
+    <module name="MethodLength">
+      <property name="severity" value="info"/>
+      <property name="max" value="40"/>
+    </module>
+    <module name="LineLength">
+      <property name="max" value="100"/>
+    </module>
+    <module name="ParameterNumber">
+      <property name="severity" value="info"/>
+      <property name="max" value="7"/>
+    </module>
+
+    <!-- Javadoc Comments (2) -->
+    <module name="JavadocType">
+      <property name="scope" value="protected"/>
+    </module>
+    <module name="JavadocMethod">
+      <property name="scope" value="protected"/>
+      <property name="allowUndeclaredRTE" value="true"/>
+    </module>
+    <module name="JavadocVariable">
+      <property name="scope" value="protected"/>
+    </module>
+    <module name="JavadocStyle"/>
+
+    <!-- Naming Conventions -->
+    <module name="ConstantName"/>
+    <module name="LocalFinalVariableName"/>
+    <module name="LocalVariableName"/>
+    <module name="MemberName">
+      <property name="format" value="^m[A-Z][a-zA-Z0-9]*$"/>
+    </module>
+    <module name="MethodName"/>
+    <module name="PackageName"/>
+    <module name="ParameterName"/>
+    <module name="StaticVariableName"/>
+    <module name="TypeName"/>
+
+    <!-- Imports -->
+    <module name="AvoidStarImport"/>
+    <module name="IllegalImport"/>
+    <module name="RedundantImport"/>
+    <module name="UnusedImports"/>
+
+    <!-- Whitespace (2) -->
+    <module name="EmptyForIteratorPad">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="GenericWhitespace">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="MethodParamPad">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="NoWhitespaceAfter">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="NoWhitespaceBefore">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="ParenPad">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="TypecastParenPad">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="WhitespaceAfter">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="WhitespaceAround">
+      <property name="severity" value="info"/>
+    </module>
+
+    <!-- Modifiers -->
+    <module name="ModifierOrder"/>
+    <module name="RedundantModifier"/>
+
+    <!-- Blocks -->
+    <module name="AvoidNestedBlocks">
+      <property name="allowInSwitchCase" value="true" />
+    </module>
+    <module name="EmptyBlock"/>
+    <module name="EmptyBlock">
+      <property name="option" value="text"/>
+      <property name="tokens" value="LITERAL_CATCH"/>
+    </module>
+    <module name="LeftCurly"/>
+    <module name="NeedBraces"/>
+    <module name="RightCurly"/>
+
+    <!-- Coding Probrems -->
+    <module name="EmptyStatement"/>
+    <module name="EqualsHashCode"/>
+    <module name="IllegalInstantiation"/>
+    <module name="MagicNumber"/>
+    <module name="MissingSwitchDefault"/>
+    <module name="SimplifyBooleanExpression"/>
+    <module name="SimplifyBooleanReturn"/>
+
+    <!-- Class Design -->
+    <!-- module name="DesignForExtension"/ -->
+    <module name="FinalClass"/>
+    <module name="HideUtilityClassConstructor"/>
+    <module name="InterfaceIsType"/>
+    <module name="VisibilityModifier"/>
+
+    <!-- Miscellaneous (2) -->
+    <module name="ArrayTypeStyle">
+      <property name="severity" value="warning"/>
+    </module>
+    <module name="TodoComment">
+      <property name="severity" value="info"/>
+    </module>
+    <module name="UpperEll">
+      <property name="severity" value="warning"/>
+    </module>
+
+    <!-- With SuppressWarningsFilter in Check module,
+         "@SuppressWarnings" will be enabled in Java code -->
+    <module name="SuppressWarningsHolder" />
+  </module>
+</module>

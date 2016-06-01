@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="picture_size_entries">
+        <item>@string/picture_size_fhd</item>
+        <item>@string/picture_size_hd</item>
+        <item>@string/picture_size_vga</item>
+    </string-array>
+    <string-array name="picture_size_entryValues">
+        <item>1920 x 1080</item>
+        <item>1280 x 720</item>
+        <item>640 x 360</item>
+    </string-array>
+    <string-array name="smile_shutter_entries">
+        <item>@string/smile_shutter_on</item>
+        <item>@string/smile_shutter_off</item>
+    </string-array>
+    <string-array name="smile_shutter_entryValues">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="action_fragment_background">#FF111111</color>
+    <color name="add_accessory_hint_text_color">#FFE0E0E0</color>
+    <color name="background">#FF707070</color>
+    <color name="background_complete">#ff474747</color>
+    <color name="button_text_color_03">#4ceeeeee</color>
+    <color name="button_text_color_10">#ffeeeeee</color>
+    <color name="c1">#fff0f0f0</color>
+    <color name="c2">#b3f0f0f0</color>
+    <color name="c4">#ff000000</color>
+    <color name="c5">#b3000000</color>
+    <color name="captioning_color_000000">#FF000000</color>
+    <color name="captioning_color_000055">#FF000055</color>
+    <color name="captioning_color_0000AA">#FF0000AA</color>
+    <color name="captioning_color_0000FF">#FF0000FF</color>
+    <color name="captioning_color_005500">#FF005500</color>
+    <color name="captioning_color_005555">#FF005555</color>
+    <color name="captioning_color_0055AA">#FF0055AA</color>
+    <color name="captioning_color_0055FF">#FF0055FF</color>
+    <color name="captioning_color_00AA00">#FF00AA00</color>
+    <color name="captioning_color_00AA55">#FF00AA55</color>
+    <color name="captioning_color_00AAAA">#FF00AAAA</color>
+    <color name="captioning_color_00AAFF">#FF00AAFF</color>
+    <color name="captioning_color_00FF00">#FF00FF00</color>
+    <color name="captioning_color_00FF55">#FF00FF55</color>
+    <color name="captioning_color_00FFAA">#FF00FFAA</color>
+    <color name="captioning_color_00FFFF">#FF00FFFF</color>
+    <color name="captioning_color_550000">#FF550000</color>
+    <color name="captioning_color_550055">#FF550055</color>
+    <color name="captioning_color_5500AA">#FF5500AA</color>
+    <color name="captioning_color_5500FF">#FF5500FF</color>
+    <color name="captioning_color_555500">#FF555500</color>
+    <color name="captioning_color_555555">#FF555555</color>
+    <color name="captioning_color_5555AA">#FF5555AA</color>
+    <color name="captioning_color_5555FF">#FF5555FF</color>
+    <color name="captioning_color_55AA00">#FF55AA00</color>
+    <color name="captioning_color_55AA55">#FF55AA55</color>
+    <color name="captioning_color_55AAAA">#FF55AAAA</color>
+    <color name="captioning_color_55AAFF">#FF55AAFF</color>
+    <color name="captioning_color_55FF00">#FF55FF00</color>
+    <color name="captioning_color_55FF55">#FF55FF55</color>
+    <color name="captioning_color_55FFAA">#FF55FFAA</color>
+    <color name="captioning_color_55FFFF">#FF55FFFF</color>
+    <color name="captioning_color_AA0000">#FFAA0000</color>
+    <color name="captioning_color_AA0055">#FFAA0055</color>
+    <color name="captioning_color_AA00AA">#FFAA00AA</color>
+    <color name="captioning_color_AA00FF">#FFAA00FF</color>
+    <color name="captioning_color_AA5500">#FFAA5500</color>
+    <color name="captioning_color_AA5555">#FFAA5555</color>
+    <color name="captioning_color_AA55AA">#FFAA55AA</color>
+    <color name="captioning_color_AA55FF">#FFAA55FF</color>
+    <color name="captioning_color_AAAA00">#FFAAAA00</color>
+    <color name="captioning_color_AAAA55">#FFAAAA55</color>
+    <color name="captioning_color_AAAAAA">#FFAAAAAA</color>
+    <color name="captioning_color_AAAAFF">#FFAAAAFF</color>
+    <color name="captioning_color_AAFF00">#FFAAFF00</color>
+    <color name="captioning_color_AAFF55">#FFAAFF55</color>
+    <color name="captioning_color_AAFFAA">#FFAAFFAA</color>
+    <color name="captioning_color_AAFFFF">#FFAAFFFF</color>
+    <color name="captioning_color_FF0000">#FFFF0000</color>
+    <color name="captioning_color_FF0055">#FFFF0055</color>
+    <color name="captioning_color_FF00AA">#FFFF00AA</color>
+    <color name="captioning_color_FF00FF">#FFFF00FF</color>
+    <color name="captioning_color_FF5500">#FFFF5500</color>
+    <color name="captioning_color_FF5555">#FFFF5555</color>
+    <color name="captioning_color_FF55AA">#FFFF55AA</color>
+    <color name="captioning_color_FF55FF">#FFFF55FF</color>
+    <color name="captioning_color_FFAA00">#FFFFAA00</color>
+    <color name="captioning_color_FFAA55">#FFFFAA55</color>
+    <color name="captioning_color_FFAAAA">#FFFFAAAA</color>
+    <color name="captioning_color_FFAAFF">#FFFFAAFF</color>
+    <color name="captioning_color_FFFF00">#FFFFFF00</color>
+    <color name="captioning_color_FFFF55">#FFFFFF55</color>
+    <color name="captioning_color_FFFFAA">#FFFFFFAA</color>
+    <color name="captioning_color_FFFFFF">#FFFFFFFF</color>
+    <color name="content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="content_description_text_color">#88F1F1F1</color>
+    <color name="content_fragment_default_icon_color">#33F1F1F1</color>
+    <color name="content_title_text_color">#FFF1F1F1</color>
+    <color name="custom_background_focused">#0DFFFFFF</color>
+    <color name="custom_background_selected">#0DFFFFFF</color>
+    <color name="dialog_activity_background">#77000000</color>
+    <color name="feature_intro_text_focus">#FFFFFF</color>
+    <color name="feature_intro_text_no_focus">#7FFFFFFF</color>
+    <color name="icon_background">#FF4A4F51</color>
+    <color name="indigo_500">#FF3F51B5</color>
+    <color name="launch_background">#CC242424</color>
+    <color name="lb_action_fragment_background">#FF111111</color>
+    <color name="lb_content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="lb_content_description_text_color">#88F1F1F1</color>
+    <color name="lb_content_title_text_color">#FFF1F1F1</color>
+    <color name="lb_dialog_activity_background">#77000000</color>
+    <color name="lb_dialog_list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="lb_dialog_selector_color">#0DFFFFFF</color>
+    <color name="lb_tv_white">#FFCCCCCC</color>
+    <color name="legacy_app_item_background">#1a000000</color>
+    <color name="list_item_selected_description_text_color">#FFF1F1F1</color>
+    <color name="list_item_selected_summary_text_color">#4DF1F1F1</color>
+    <color name="list_item_selected_title_text_color">#FFF1F1F1</color>
+    <color name="list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="mirror_notification">#00389ec0</color>
+    <color name="normal">#FFFFFFFF</color>
+    <color name="overlay_blended_light_primary">#ffeeeeee</color>
+    <color name="overlay_blended_light_secondary">#ff878787</color>
+    <color name="path">#aa00a80c</color>
+    <color name="permission_prompt_background_color">#1f292e</color>
+    <color name="permission_text_color_04">#66eeeeee</color>
+    <color name="permission_text_color_06">#99eeeeee</color>
+    <color name="permission_text_color_10">#ffeeeeee</color>
+    <color name="pin_dialog_background">#384248</color>
+    <color name="pin_dialog_text_color_disabled">#4DEEEEEE</color>
+    <color name="pin_dialog_text_color_enabled">#FFEEEEEE</color>
+    <color name="pin_number_picker_focused_background">#4B5459</color>
+    <color name="quiet">#FF909090</color>
+    <color name="rec_text_disable">#66FE0000</color>
+    <color name="rec_text_normal">#FE0000</color>
+    <color name="recognition_inside">#FF000000</color>
+    <color name="recognition_main">#FF00a9d5</color>
+    <color name="recognition_outside">#FF000000</color>
+    <color name="recommendation_card">#ff389ec0</color>
+    <color name="return_to_tv_text_focused">#FF000000</color>
+    <color name="return_to_tv_text_normal">#FFFFFFFF</color>
+    <color name="save_text_focused">#FF000000</color>
+    <color name="save_text_normal">#FFFFFFFF</color>
+    <color name="selector_color">#0DFFFFFF</color>
+    <color name="settings_background">#FF1F292E</color>
+    <color name="shoot_text_focused">#000000</color>
+    <color name="shoot_text_focused_disable">#7F000000</color>
+    <color name="shoot_text_normal">#FFFFFF</color>
+    <color name="shoot_text_normal_disable">#7FFFFFFF</color>
+    <color name="storage_apps_usage">#77831A</color>
+    <color name="storage_avail">#333333</color>
+    <color name="storage_cache">#479392</color>
+    <color name="storage_dcim">#793A7F</color>
+    <color name="storage_downloads">#476093</color>
+    <color name="storage_misc">#7C3030</color>
+    <color name="storage_music">#8E562A</color>
+    <color name="storage_used">#FF0000</color>
+    <color name="toast_background">#324248</color>
+    <color name="toast_notification_background">#881F1F1F</color>
+    <color name="toast_notification_text_color">#FFF0F0F0</color>
+    <color name="toc_screen_background">#ffececec</color>
+    <color name="toc_text_background">#ff434343</color>
+    <color name="tv_white">#FFCCCCCC</color>
+    <declare-styleable name="CanvasSettings"><attr format="reference" name="preference"/></declare-styleable>
+    <declare-styleable name="FrameLayoutWithShadows"><attr format="reference" name="defaultShadow"/><attr format="reference" name="drawableBottom"/></declare-styleable>
+    <declare-styleable name="PercentageBarChart"><attr format="color" name="emptyColor"/><attr format="dimension" name="minTickWidth"/></declare-styleable>
+    <declare-styleable name="RefcountImageView"><attr format="boolean" name="autoUnrefOnDetach"/></declare-styleable>
+    <declare-styleable name="RoundProgressBar"><attr format="color" name="roundProgressColor"/><attr format="dimension" name="roundWidth"/><attr format="integer" name="max"/></declare-styleable>
+    <declare-styleable name="ScrollAdapterView"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="boolean" name="itemFocusable"/><attr format="integer" name="gridSetting"/><attr format="dimension" name="space"/><attr format="dimension" name="selectedSize"/><attr format="boolean" name="selectedTakesMoreSpace"/><attr name="scrollCenterStrategy"><enum name="keepCenter" value="0"/><enum name="fixed" value="1"/><enum name="fixedPercent" value="2"/><enum name="fixedToEnd" value="3"/></attr><attr format="dimension" name="scrollCenterOffset"/><attr format="integer" name="scrollCenterOffsetPercent"/><attr name="scrollItemAlign"><enum name="center" value="0"/><enum name="low" value="1"/><enum name="high" value="2"/></attr><attr format="float" name="lerperDivisor"/><attr format="reference" name="lowItemTransform"/><attr format="reference" name="highItemTransform"/><attr format="reference" name="expandedItemInAnim"/><attr format="reference" name="expandedItemOutAnim"/><attr format="boolean" name="navigateOutAllowed"/><attr format="boolean" name="navigateOutOfOffAxisAllowed"/><attr format="boolean" name="navigateInAnimationAllowed"/></declare-styleable>
+    <declare-styleable name="WifiEncryptionState"><attr format="boolean" name="state_encrypted"/></declare-styleable>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="account_content_text_bottom_margin">32dp</dimen>
+    <dimen name="account_content_text_top_margin">13dp</dimen>
+    <dimen name="action_fragment_selector_min_height">8dp</dimen>
+    <dimen name="action_min_height">80dp</dimen>
+    <dimen name="add_accessory_padding_start">50dp</dimen>
+    <item format="float" name="alpha_activity_in_bkg_end" type="dimen">@dimen/alpha_animiation_max_opacity</item>
+    <item format="float" name="alpha_activity_in_bkg_start" type="dimen">@dimen/alpha_animiation_min_opacity</item>
+    <item format="float" name="alpha_activity_out_bkg_end" type="dimen">@dimen/alpha_animiation_min_opacity</item>
+    <item format="float" name="alpha_activity_out_bkg_start" type="dimen">@dimen/alpha_animiation_max_opacity</item>
+    <item format="float" name="alpha_animiation_max_opacity" type="dimen">1.0</item>
+    <item format="float" name="alpha_animiation_min_opacity" type="dimen">0.0</item>
+    <dimen name="app_icon_list_margin_bottom">10dp</dimen>
+    <dimen name="app_icon_margin_end">40dp</dimen>
+    <dimen name="app_icon_margin_start">50dp</dimen>
+    <dimen name="app_icon_size">240dp</dimen>
+    <dimen name="app_icon_size_minus_margin">190dp</dimen>
+    <dimen name="app_info_size">260dp</dimen>
+    <dimen name="app_management_content_select_padding">10dp</dimen>
+    <dimen name="browse_item_bottom_padding">12dp</dimen>
+    <dimen name="browse_item_description_font_size">14sp</dimen>
+    <dimen name="browse_item_description_marginBottom">9dp</dimen>
+    <dimen name="browse_item_height">168dp</dimen>
+    <dimen name="browse_item_icon_height">112dp</dimen>
+    <dimen name="browse_item_icon_width">112dp</dimen>
+    <dimen name="browse_item_text_marginHor">12dp</dimen>
+    <dimen name="browse_item_title_font_size">16sp</dimen>
+    <dimen name="browse_item_title_marginBottom">29dp</dimen>
+    <item name="browse_item_unfocused_alpha" type="dimen">100%</item>
+    <item name="browse_item_unfocused_satuation" type="dimen">70%</item>
+    <dimen name="browse_item_width">168dp</dimen>
+    <dimen name="bt_height">30dp</dimen>
+    <dimen name="bt_margin_right">25dp</dimen>
+    <dimen name="bt_secure_pair_hint_start_margin">5dp</dimen>
+    <dimen name="bt_secure_pair_hint_top_margin">3dp</dimen>
+    <dimen name="bt_width">194dp</dimen>
+    <dimen name="button_margin_left">15dp</dimen>
+    <dimen name="button_margin_right">15dp</dimen>
+    <dimen name="button_margin_top">5dp</dimen>
+    <dimen name="content_fragment_badge_icon_height">48dp</dimen>
+    <dimen name="content_fragment_badge_icon_width">48dp</dimen>
+    <dimen name="content_fragment_breadcrumb_text_size">18sp</dimen>
+    <dimen name="content_fragment_caption_text_size">20sp</dimen>
+    <dimen name="content_fragment_default_icon_height">400dp</dimen>
+    <dimen name="content_fragment_default_icon_width">400dp</dimen>
+    <dimen name="content_fragment_delimiter_padding">16dp</dimen>
+    <dimen name="content_fragment_description_text_size">14sp</dimen>
+    <dimen name="content_fragment_icon_height">140dp</dimen>
+    <dimen name="content_fragment_icon_width">140dp</dimen>
+    <dimen name="content_fragment_max_icon_height">280dp</dimen>
+    <dimen name="content_fragment_start_padding">48dp</dimen>
+    <dimen name="content_fragment_text_padding">20dip</dimen>
+    <dimen name="content_fragment_text_size">30sp</dimen>
+    <dimen name="content_fragment_title_text_bottom_padding">4dp</dimen>
+    <dimen name="content_fragment_title_text_size">36sp</dimen>
+    <dimen name="content_fragment_title_text_top_padding">2dp</dimen>
+    <dimen name="device_storage_usage_indicator_height">32dip</dimen>
+    <dimen name="device_storage_usage_indicator_width">32dip</dimen>
+    <dimen name="edit_text_width_default">300dp</dimen>
+    <dimen name="edit_text_width_small">200dp</dimen>
+    <dimen name="icon_padding">12dp</dimen>
+    <dimen name="indeterminate_bottom_padding">4dp</dimen>
+    <dimen name="intro_all_margin_bottom">40dip</dimen>
+    <dimen name="intro_all_margin_left">72dip</dimen>
+    <dimen name="intro_all_margin_right">72dip</dimen>
+    <dimen name="intro_button_height">36.0dip</dimen>
+    <dimen name="intro_button_select_height">32.0dip</dimen>
+    <dimen name="intro_button_select_margin_bottom">16.0dip</dimen>
+    <dimen name="intro_button_select_text_padding_left">24.0dip</dimen>
+    <dimen name="intro_button_select_text_padding_right">24.0dip</dimen>
+    <dimen name="intro_button_select_text_size">12.0sp</dimen>
+    <dimen name="intro_button_width">135.0dip</dimen>
+    <dimen name="intro_header_description_margin_bottom">32dip</dimen>
+    <dimen name="intro_header_description_text_size">18.0sp</dimen>
+    <dimen name="intro_header_title_image_margin_bottom">8dip</dimen>
+    <dimen name="intro_header_title_text_margin_bottom">24dip</dimen>
+    <dimen name="intro_header_title_text_size">36.0sp</dimen>
+    <dimen name="layout_action_bar">58dp</dimen>
+    <dimen name="lb_action_fragment_selector_min_height">8dp</dimen>
+    <dimen name="lb_action_section_width">384dp</dimen>
+    <dimen name="lb_action_text_width">248dp</dimen>
+    <dimen name="lb_action_text_width_no_icon">284dp</dimen>
+    <dimen name="lb_content_fragment_breadcrumb_text_size">18sp</dimen>
+    <dimen name="lb_content_fragment_delimiter_padding">16dp</dimen>
+    <dimen name="lb_content_fragment_description_text_size">14sp</dimen>
+    <dimen name="lb_content_fragment_icon_width">140dp</dimen>
+    <dimen name="lb_content_fragment_max_icon_height">280dp</dimen>
+    <dimen name="lb_content_fragment_start_padding">48dp</dimen>
+    <dimen name="lb_content_fragment_title_text_bottom_padding">4dp</dimen>
+    <dimen name="lb_content_fragment_title_text_size">36sp</dimen>
+    <dimen name="lb_content_fragment_title_text_top_padding">2dp</dimen>
+    <dimen name="lb_content_section_width">576dp</dimen>
+    <dimen name="lb_dialog_list_item_checkmark_diameter">8dp</dimen>
+    <dimen name="lb_dialog_list_item_delimiter_padding">4dp</dimen>
+    <dimen name="lb_dialog_list_item_description_font_size">12sp</dimen>
+    <dimen name="lb_dialog_list_item_end_padding">28dp</dimen>
+    <dimen name="lb_dialog_list_item_icon_height">32dp</dimen>
+    <dimen name="lb_dialog_list_item_icon_width">32dp</dimen>
+    <dimen name="lb_dialog_list_item_min_height">64dp</dimen>
+    <dimen name="lb_dialog_list_item_start_padding">20dp</dimen>
+    <dimen name="lb_dialog_list_item_title_font_size">18sp</dimen>
+    <dimen name="lb_dialog_list_item_vertical_padding">12dp</dimen>
+    <item name="legacy_app_item_unfocused_alpha" type="dimen">70%</item>
+    <dimen name="list_header_height">36dp</dimen>
+    <dimen name="list_item_badge_icon_height">18dp</dimen>
+    <dimen name="list_item_badge_icon_margin_start">8dp</dimen>
+    <dimen name="list_item_badge_icon_width">18dp</dimen>
+    <dimen name="list_item_checkmark_diameter">8dp</dimen>
+    <dimen name="list_item_delimiter_padding">4dp</dimen>
+    <dimen name="list_item_description_font_size">12sp</dimen>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <item format="float" name="list_item_disabled_chevron_background_alpha" type="dimen">0.50</item>
+    <item format="float" name="list_item_disabled_description_text_alpha" type="dimen">0.50</item>
+    <item format="float" name="list_item_disabled_title_text_alpha" type="dimen">0.50</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="list_item_end_padding">28dp</dimen>
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="list_item_icon_big_height">80dp</dimen>
+    <dimen name="list_item_icon_big_margin_end">8dp</dimen>
+    <dimen name="list_item_icon_big_width">80dp</dimen>
+    <dimen name="list_item_icon_height">32dp</dimen>
+    <dimen name="list_item_icon_size">32dp</dimen>
+    <dimen name="list_item_icon_small_height">24dp</dimen>
+    <dimen name="list_item_icon_small_width">24dp</dimen>
+    <dimen name="list_item_icon_width">32dp</dimen>
+    <dimen name="list_item_min_height">64dp</dimen>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <item format="float" name="list_item_selected_chevron_background_alpha" type="dimen">1.00</item>
+    <item format="float" name="list_item_selected_description_text_alpha" type="dimen">0.50</item>
+    <item format="float" name="list_item_selected_title_text_alpha" type="dimen">1.00</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="list_item_start_padding">20dp</dimen>
+    <dimen name="list_item_timestamp_font_size">12sp</dimen>
+    <dimen name="list_item_title_font_size">18sp</dimen>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <item format="float" name="list_item_unselected_description_text_alpha" type="dimen">0.50</item>
+    <item format="float" name="list_item_unselected_text_alpha" type="dimen">1.00</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="list_item_vertical_padding">12dp</dimen>
+    <dimen name="network_list_height">192dp</dimen>
+    <dimen name="network_list_margin">24dp</dimen>
+    <dimen name="network_list_width">128dp</dimen>
+    <dimen name="pad_end_unsafe_action">56dp</dimen>
+    <dimen name="pad_start_unsafe_action">56dp</dimen>
+    <dimen name="pad_start_unsafe_description">56dp</dimen>
+    <dimen name="pad_top_unsafe_progress">32dp</dimen>
+    <dimen name="padding_remote_enable_list">40dp</dimen>
+    <dimen name="padding_wifi_network_list">40dp</dimen>
+    <dimen name="picker_column_height">192dp</dimen>
+    <dimen name="picker_column_horizontal_padding">8dp</dimen>
+    <dimen name="picker_item_height">64dp</dimen>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <item format="float" name="picker_item_invisible_column_item_alpha" type="dimen">0.00</item>
+    <item format="float" name="picker_item_separator_alpha" type="dimen">0.50</item>
+    <item format="float" name="picker_item_visible_column_item_alpha" type="dimen">0.50</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="picker_separator_horizontal_padding">4dp</dimen>
+    <dimen name="picker_start_padding">24dp</dimen>
+    <dimen name="pin_dialog_bottom_padding">24dp</dimen>
+    <dimen name="pin_dialog_elevation">8dp</dimen>
+    <dimen name="pin_dialog_height">216dp</dimen>
+    <dimen name="pin_dialog_horizontal_padding">24dp</dimen>
+    <dimen name="pin_dialog_pin_number_spacing">8dp</dimen>
+    <dimen name="pin_dialog_pin_numbers_height">144dp</dimen>
+    <dimen name="pin_dialog_pin_numbers_horizontal_padding">24dp</dimen>
+    <dimen name="pin_dialog_pin_numbers_width">264dp</dimen>
+    <dimen name="pin_dialog_title_bottom_margin">7dp</dimen>
+    <dimen name="pin_dialog_title_height">24dp</dimen>
+    <dimen name="pin_dialog_title_text_size">20sp</dimen>
+    <dimen name="pin_dialog_title_width">216dp</dimen>
+    <dimen name="pin_dialog_top_padding">17dp</dimen>
+    <dimen name="pin_dialog_width">312dp</dimen>
+    <dimen name="pin_dialog_wrong_pin_text_size">14sp</dimen>
+    <dimen name="pin_number_picker_height">144dp</dimen>
+    <dimen name="pin_number_picker_text_size">24sp</dimen>
+    <dimen name="pin_number_picker_text_view_height">48dp</dimen>
+    <dimen name="pin_number_picker_text_view_width">48dp</dimen>
+    <dimen name="pin_number_picker_width">48dp</dimen>
+    <dimen name="progress_bar_horizontal_padding">64dp</dimen>
+    <dimen name="progress_bar_horizontal_width">120dp</dimen>
+    <dimen name="progress_bar_vertical_padding">32dp</dimen>
+    <dimen name="remote_settings_pane_padding">50dp</dimen>
+    <dimen name="settings_list_app_contents_padding">10dp</dimen>
+    <dimen name="settings_list_app_padding">10dp</dimen>
+    <dimen name="settings_list_fade_length">30dp</dimen>
+    <dimen name="settings_list_padding_vertical">120dp</dimen>
+    <dimen name="settings_list_text_padding_vertical">1dp</dimen>
+    <dimen name="setup_activity_overscan_margin">48dp</dimen>
+    <dimen name="setup_scroll_list_top_padding">0dp</dimen>
+    <dimen name="setup_title_height">285dp</dimen>
+    <dimen name="storage_bar_min_tick_width">3dp</dimen>
+    <dimen name="text_padding_vertical">6dp</dimen>
+    <dimen name="text_size_current_time_item">11sp</dimen>
+    <dimen name="text_size_description">24sp</dimen>
+    <dimen name="text_size_heading">48sp</dimen>
+    <dimen name="text_size_heading2">36sp</dimen>
+    <dimen name="text_size_hint">20sp</dimen>
+    <dimen name="text_size_rec_item">14sp</dimen>
+    <dimen name="text_size_scroll_list_focused">24sp</dimen>
+    <dimen name="text_size_scroll_list_header_focused">14sp</dimen>
+    <dimen name="text_size_scroll_list_unfocused">20sp</dimen>
+    <dimen name="tos_webview_padding_with_progress_bar">80dp</dimen>
+    <dimen name="tos_webview_padding_without_progress_bar">40dp</dimen>
+    <dimen name="width_action">256dp</dimen>
+    <dimen name="width_description">536dp</dimen>
+    <dimen name="width_remote_enable_list">800dp</dimen>
+    <dimen name="width_setup_max">872dp</dimen>
+    <dimen name="width_wifi_network_list">400dp</dimen>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <drawable name="network_item">#FF707070</drawable>
+    <drawable name="network_item_focus">#FF5CC0FF</drawable>
+    <drawable name="settings_item_bg_disabled">#ff555555</drawable>
+    <drawable name="settings_item_bg_normal">#ff333333</drawable>
+    <drawable name="settings_item_bg_pressed">#ff777777</drawable>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/id.xml -->
+    <eat-comment/>
+    <item name="ControllerTagId" type="id"/>
+    <item name="LoaderTagId" type="id"/>
+    <item name="ScrollAdapterViewChild" type="id"/>
+    <item name="ShadowView" type="id"/>
+    <item name="ShadowedView" type="id"/>
+    <item name="imageDownloadTask" type="id"/>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="action_description_min_lines">2</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/config.xml -->
+    <eat-comment/>
+    <integer name="action_title_max_lines">3</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="action_title_min_lines">1</integer>
+    <integer name="alpha_activity_in_bkg_delay">0</integer>
+    <integer name="alpha_activity_in_bkg_duration">@integer/base_animation_duration</integer>
+    <integer name="alpha_activity_out_bkg_delay">0</integer>
+    <integer name="alpha_activity_out_bkg_duration">@integer/base_animation_duration</integer>
+    <integer name="animate_delay">550</integer>
+    <integer name="animate_in_duration">250</integer>
+    <integer name="base_animation_duration">500</integer>
+    <integer name="captioning_preview_default_font_size">48</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/config.xml -->
+    <eat-comment/>
+    <integer name="dialog_animation_duration">150</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="indeterminate_frame_duration">30</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="intro_text_description_lines">4</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="lb_dialog_action_description_min_lines">2</integer>
+    <integer name="lb_dialog_action_title_max_lines">3</integer>
+    <integer name="lb_dialog_action_title_min_lines">1</integer>
+    <integer name="lb_dialog_animation_duration">150</integer>
+    <integer name="lb_dialog_fade_out_duration">200</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="pin_dialog_anim_duration">250</integer>
+    <integer name="pin_dialog_enter_offset_y">32</integer>
+    <integer name="pin_dialog_exit_offset_y">32</integer>
+    <integer name="pin_number_scroll_anim_duration">125</integer>
+    <integer name="pin_number_scroll_duration">250</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="secondary_animate_delay">120</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/config.xml -->
+    <eat-comment/>
+    <integer name="settings_fade_in_duration">350</integer>
+    <integer name="settings_fade_out_duration">350</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="slide_in_distance">120</integer>
+    <integer name="slide_in_stagger">100</integer>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_exit" sony_id="82209">Close TV Camera</string>
+    <string name="app_exit_button" sony_id="2004">Exit</string>
+    <string name="app_name" sony_id="81814">TV Camera</string>
+    <string name="app_start" sony_id="82208">Start TV Camera</string>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/dimens.xml -->
+    <eat-comment/>
+    <item format="float" name="browse_scale_anim_factor" type="string">1.4</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="camera_device_initialization_failed" sony_id="82200">Camera is not properly activated. Please try again later.</string>
+    <string name="camera_device_is_busy" sony_id="82201">Another app is using the camera. Stop running applications and try again.</string>
+    <string name="camera_device_open_failed" sony_id="82200">Camera is not properly activated. Please try again later.</string>
+    <string name="camera_mode_name" sony_id="82163">Supported Camera: CMU-BR300</string>
+    <string name="camera_recognition_is_already_opened" sony_id="82199">Unknown error. Please try again later.</string>
+    <string name="camera_settings" sony_id="1120">Settings</string>
+    <string name="camera_terminate" sony_id="82070">The camera has been disconnected.</string>
+    <string name="cancel" sony_id="4">Cancel</string>
+    <string name="card_description" sony_id="81811">Make your TV watching experience memorable and exciting!</string>
+    <string name="close_smile_shutter_start" sony_id="82175">Close Smile Shutter</string>
+    <string name="content_title" sony_id="81814">TV Camera</string>
+    <string name="dialog_ok" sony_id="50724">OK</string>
+    <string name="dialog_title" sony_id="82068">Notice</string>
+    <string name="enter_button" sony_id="82178">Go to settings</string>
+    <string name="help_text" sony_id="82119">Set up the destination and video file format (size, bitrate) of recordings.</string>
+    <string name="intro_description_for_dialog">TV camera needs to be purchased separately. Please call 4008109000 for product information.</string>
+    <string name="intro_description_line1" sony_id="81811">Make your TV watching experience memorable and exciting!</string>
+    <string name="intro_description_line2" sony_id="81812">Your actions will be captured by this application and displayed on TV.</string>
+    <string name="intro_description_line3" sony_id="81813">Make the moment more memorable by storing your action video to USB storage device and cherish it forever.</string>
+    <string name="intro_description_line4" sony_id="82231">TV camera needs to be purchased separately. Please call 4008109000 for product information, or scan QR code to get more information from Sony China website.</string>
+    <string name="intro_title" sony_id="81814">TV Camera</string>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/colors.xml -->
+    <eat-comment/>
+    <item format="float" name="lb_dialog_list_item_disabled_chevron_background_alpha" type="string">0.50</item>
+    <item format="float" name="lb_dialog_list_item_disabled_description_text_alpha" type="string">0.50</item>
+    <item format="float" name="lb_dialog_list_item_disabled_title_text_alpha" type="string">0.50</item>
+    <item format="float" name="lb_dialog_list_item_selected_chevron_background_alpha" type="string">1.00</item>
+    <item format="float" name="lb_dialog_list_item_selected_description_text_alpha" type="string">0.50</item>
+    <item format="float" name="lb_dialog_list_item_selected_title_text_alpha" type="string">1.00</item>
+    <item format="float" name="lb_dialog_list_item_unselected_description_text_alpha" type="string">0.50</item>
+    <item format="float" name="lb_dialog_list_item_unselected_text_alpha" type="string">1.00</item>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="load_tvcamera" sony_id="64546">Loading...</string>
+    <string name="memory_little" sony_id="82072">Recording has stopped because the USB storage space is less than 30 MB. Please free space and try again.</string>
+    <string name="memory_little_photo" sony_id="82196">Photo capturing stopped because the USB storage device space is less than 3 MB. Please free space and try again.</string>
+    <string name="memory_little_smile_shutter" sony_id="82203">Smile Shutter is suspended because the USB storage device space is less than 3 MB. Please free space and try again.</string>
+    <string name="memory_little_tip" sony_id="82073">Cannot record video. USB storage device space is less than 30 MB.</string>
+    <string name="memory_little_tip_photo" sony_id="82197">Cannot capture photos. USB storage device space is less than 3 MB.</string>
+    <string name="memory_little_tip_smile_shutter" sony_id="82204">Cannot use Smile Shutter. USB storage device space is less than 3 MB.</string>
+    <string name="no_camera" sony_id="82128">This TV Camera app is available only when camera is connected to this TV.</string>
+    <string name="no_usb" sony_id="82083">USB storage device is not connected. Recording feature is currently unavailable.</string>
+    <string name="no_usb_photo" sony_id="82198">Cannot capture photos. Please connect USB storage device.</string>
+    <string name="no_usb_smile_shutter" sony_id="82205">Smile Shutter is suspended. Please connect USB storage device.</string>
+    <string name="not_supported_camera">Camera type is not supported.</string>
+    <string formatted="false" name="permission1_edit" sony_id="82734">Give access</string>
+    <string formatted="false" name="permission1_prompt_message" sony_id="82732">To get started, %s needs access to:</string>
+    <string name="permission1_prompt_operation" sony_id="82733">Select [Give access] and then select [Allow] to begin using this app.</string>
+    <string formatted="false" name="permission1_prompt_title" sony_id="82731">Welcome to %s</string>
+    <string name="permission2_edit" sony_id="82739">Edit permissions</string>
+    <string name="permission2_prompt_operation" sony_id="82738">Select [Edit Permissions] > [Permissions] to grant permission.</string>
+    <string name="permission2_prompt_title" sony_id="82735">%s needs your permission</string>
+    <string formatted="false" name="permission2a_prompt_message" sony_id="82736">To continue, %s needs your permission to access:</string>
+    <string formatted="false" name="permission2b_prompt_message" sony_id="82737">To perform this action, %s needs your permission to access:</string>
+    <string name="permission_cancel" sony_id="4">Cancel</string>
+    <string name="permission_toast" sony_id="82740">Select [Permissions] to edit permissions</string>
+    <string name="photo" sony_id="31107">Photo</string>
+    <string name="photo_destination_title" sony_id="82054">Destination</string>
+    <string name="photo_setting_sub_content" sony_id="82350">For Photo/Smile Shutter Feature</string>
+    <string name="picture_size_defValue" translatable="false">1920 x 1080</string>
+    <string name="picture_size_fhd">1920 x 1080</string>
+    <string name="picture_size_hd">1280 x 720</string>
+    <string name="picture_size_title" sony_id="82258">Photo size</string>
+    <string name="picture_size_vga">640 x 360</string>
+    <string name="read_only" sony_id="82121">USB storage device is read-only. Please remove the write-protection and try again.</string>
+    <string name="rec_start" sony_id="61178">REC Start</string>
+    <string name="rec_stop" sony_id="35355">REC stop</string>
+    <string name="return_to_tv" sony_id="4">Cancel</string>
+    <string name="save" sony_id="82174">Save</string>
+    <string name="security_camera_content_line1" sony_id="82342">No more worries while you are away from your home.</string>
+    <string name="security_camera_content_line2_3_4" sony_id="82368">With this app, your TV camera will monitor and record your room. When something comes in front of your TV or anything moves, a TV camera automatically starts recording for 30 second while TV is on sleep or during standby.</string>
+    <string name="security_camera_content_line5" sony_id="82346">You can check recordings from Album app, or Video row in Content Bar.</string>
+    <string name="security_camera_content_line6" sony_id="82347">Notice:</string>
+    <string name="security_camera_content_line7" sony_id="82348">* Recorded data will be saved in an external USB storage device and cannot be transferred from the TV via a network.</string>
+    <string name="security_camera_content_line8" sony_id="82349">** This feature is available only when your TV is inactive. Please select [TV Camera] from the Action Menu to set up this app.</string>
+    <string name="security_camera_content_line9" sony_id="82367">You can use Album app to watch taken videos. Album app can launched from Home menu or Content Bar.</string>
+    <string name="security_camera_error_toast" sony_id="82356">Presence detector is suspended. An error has occurred. Please try again later.</string>
+    <string name="security_camera_memory_little_dialog" sony_id="82354">Cannot use Presence detector. USB storage device space is less than 50 MB.</string>
+    <string name="security_camera_memory_little_toast" sony_id="82359">Presence detector is suspended. USB storage device space is less than 50 MB.</string>
+    <string name="security_camera_no_camera_dialog" sony_id="82355">Cannot use Presence detector. Please connect a camera.</string>
+    <string name="security_camera_no_camera_toast" sony_id="82360">Presence detector is suspended. Please connect a camera.</string>
+    <string name="security_camera_no_usb_dialog" sony_id="82352">Cannot use Presence detector. Please connect USB storage device.</string>
+    <string name="security_camera_no_usb_toast" sony_id="82357">Presence detector is suspended. Please connect USB storage device.</string>
+    <string name="security_camera_success" sony_id="82361">Presence detector has recorded a video.</string>
+    <string name="security_camera_title" sony_id="82341">Presence detector</string>
+    <string name="security_camera_usb_read_only_dialog" sony_id="82353">Cannot use Presence detector. USB storage device is read-only. Please remove the write-protection and try again.</string>
+    <string name="security_camera_usb_read_only_toast" sony_id="82358">Presence detector is suspended. USB storage device is read-only. Please remove the write-protection and try again.</string>
+    <string name="setting_msg" sony_id="81814">TV Camera</string>
+    <string name="setting_title" sony_id="82176">Photo settings</string>
+    <string name="settings_app_name"/>
+    <string name="settings_cancel" translatable="false">cancel</string>
+    <string name="settings_off" translatable="false">off</string>
+    <string name="settings_ok" translatable="false">ok</string>
+    <string name="settings_on" translatable="false">on</string>
+    <string name="shoot" sony_id="82172">Shoot</string>
+    <string name="smile_intro_description_line1" sony_id="82180">Use Smile Shutter™ technology to photograph a face just as it smiles.</string>
+    <string name="smile_intro_description_line2" sony_id="82181">The camera detects up to five faces and selects one face for smile detection and auto focus.</string>
+    <string name="smile_intro_description_line3" sony_id="82182">When the selected face smiles, the camera automatically takes a photo.</string>
+    <string name="smile_intro_description_line4" sony_id="82366">You can use Album app to see taken photos. Album app can launched from Home menu or Content Bar.</string>
+    <string name="smile_intro_title" sony_id="82179">Using Smile Shutter™ to capture smiling faces</string>
+    <string name="smile_shutter" sony_id="82257">Smile Shutter</string>
+    <string name="smile_shutter_camera_device_initialization_failed" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_device_is_busy" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_device_open_failed" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_recognition_is_already_opened" sony_id="82207">Cannot start Smile Shutter. Please try again later.</string>
+    <string name="smile_shutter_camera_terminate" sony_id="82230">Smile Shutter is suspended because a camera has been disconnected.</string>
+    <string name="smile_shutter_defValue" translatable="false">Off</string>
+    <string name="smile_shutter_off" sony_id="35243">Off</string>
+    <string name="smile_shutter_on" sony_id="35242">On</string>
+    <string name="smile_shutter_start" sony_id="82171">Start Smile Shutter</string>
+    <string name="smile_shutter_tip" sony_id="82177">To use Smile Shutter, you must turn the Smile Shutter setting on.</string>
+    <string name="smile_shutter_title" sony_id="82257">Smile Shutter</string>
+    <string name="smile_shutter_tv_camera_is_abnormal" sony_id="82206">Smile Shutter is suspended. An error has occurred. Please try again later.</string>
+    <string name="start" sony_id="52">Start</string>
+    <string name="start_security_camera" sony_id="82362">Start Presence detector</string>
+    <string name="stop_security_camera" sony_id="82363">Stop Presence detector</string>
+    <string name="title_video_destination" sony_id="82054">Destination</string>
+    <string name="title_video_quality" sony_id="82053">Video quality</string>
+    <string name="title_video_size" sony_id="82052">Video size</string>
+    <string name="tv_camera_is_abnormal" sony_id="82199">Unknown error. Please try again later.</string>
+    <string name="tv_camera_setting_hit" sony_id="82365">You can use Album app to watch recorded videos and photos.</string>
+    <string name="tv_camera_settings" sony_id="82364">TV Camera settings</string>
+    <string name="u_disk_pulled_out" sony_id="82071">USB storage device has been disconnected.</string>
+    <string name="usb_error" sony_id="82120">File cannot be created.</string>
+    <string name="video" sony_id="31106">Video</string>
+    <string name="video_destination" sony_id="82054">Destination</string>
+    <string name="video_quality" sony_id="82053">Video quality</string>
+    <string name="video_quality_high" sony_id="82055">High</string>
+    <string name="video_quality_low" sony_id="82057">Low</string>
+    <string name="video_quality_middle" sony_id="82056">Middle</string>
+    <string name="video_setting_sub_content" sony_id="82351">For Video/Presence detector Feature</string>
+    <string name="video_settings" sony_id="82051">Video settings</string>
+    <!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen"/>
+    <style name="Canvas"/>
+    <style name="Canvas.Image"/>
+    <style name="Canvas.Image.Dialog"/>
+    <style name="Canvas.Image.Dialog.Content"/>
+    <style name="Canvas.Image.Dialog.Content.Icon">
+        <item name="android:maxHeight">@dimen/content_fragment_max_icon_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/content_fragment_default_icon</item>
+    </style>
+    <style name="Canvas.Image.Dialog.List"/>
+    <style name="Canvas.Image.Dialog.List.Checkmark">
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/list_item_checkmark</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="Canvas.Image.Dialog.List.Icon">
+        <item name="android:scaleType">center</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Canvas.Text"/>
+    <style name="Canvas.Text.Dialog"/>
+    <style name="Canvas.Text.Dialog.Content"/>
+    <style name="Canvas.Text.Dialog.Content.Breadcrumb">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/content_breadcrumb_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_breadcrumb_text_size</item>
+    </style>
+    <style name="Canvas.Text.Dialog.Content.Description">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textColor">@color/content_description_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_description_text_size</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="Canvas.Text.Dialog.Content.Title">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:paddingBottom">@dimen/content_fragment_title_text_bottom_padding</item>
+        <item name="android:paddingTop">@dimen/content_fragment_title_text_top_padding</item>
+        <item name="android:textColor">@color/content_title_text_color</item>
+        <item name="android:textSize">@dimen/content_fragment_title_text_size</item>
+    </style>
+    <style name="Canvas.Text.Dialog.List"/>
+    <style name="Canvas.Text.Dialog.List.Badge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_description_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Canvas.Text.Dialog.List.Description">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_description_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Canvas.Text.Dialog.List.Timestamp">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_timestamp_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="Canvas.Text.Dialog.List.Title">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:alpha">@dimen/list_item_unselected_text_alpha</item>
+        <item name="android:textSize">@dimen/list_item_title_font_size</item>
+        <item name="android:textColor">@color/list_item_unselected_text_color</item>
+    </style>
+    <style name="ContentFragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Custom_Guide_Button_Style">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@drawable/guide_button_text_color</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="Custom_Permission_Button_Style" parent="Custom_Guide_Button_Style">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Custom_Theme_Transparent" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="HintText">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@color/add_accessory_hint_text_color</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="PhotoSettingsCustomButtonDesc">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#66F0F0F0</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PhotoSettingsCustomButtonTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFF0F0F0</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="PhotoSettingsCustomStateImg">
+        <item name="android:layout_width">8dp</item>
+        <item name="android:layout_height">8dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/list_item_checkmark</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="PhotoSettingsCustomTopic" parent="PhotoSettingsCustomButtonTitle">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="PhotoSettingsViewGroupStyle">
+        <item name="android:paddingStart">32dp</item>
+        <item name="android:minHeight">65dp</item>
+        <!--<item name="android:background">@drawable/custom_background</item>-->
+    </style>
+    <style name="SettingsImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="SettingsImage.AppIcon">
+        <item name="android:background">@drawable/legacy_app_item_background</item>
+        <item name="android:layout_width">@dimen/app_icon_size</item>
+        <item name="android:layout_height">@dimen/app_icon_size</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/app_icon_margin_end</item>
+        <item name="android:layout_marginStart">@dimen/app_icon_margin_start</item>
+    </style>
+    <style name="SettingsImage.AppIcon.Left">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="SettingsImage.AppIcon.List">
+        <item name="android:layout_centerVertical">false</item>
+    </style>
+    <style name="SettingsImage.AppIcon.Right">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="SettingsList">
+        <item name="android:paddingTop">@dimen/settings_list_padding_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="SettingsStyle.TextAppearanceLarge" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textSize">36dp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="SettingsStyle.TextAppearanceMedium" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">18dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SettingsText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/normal</item>
+    </style>
+    <style name="SettingsText.Big">
+        <item name="android:textSize">@dimen/text_size_scroll_list_focused</item>
+    </style>
+    <style name="SettingsText.Header">
+        <item name="android:paddingBottom">@dimen/progress_bar_vertical_padding</item>
+        <item name="android:paddingStart">@dimen/progress_bar_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/progress_bar_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/progress_bar_vertical_padding</item>
+        <item name="android:layout_gravity">start|top</item>
+    </style>
+    <style name="SettingsText.List">
+        <item name="android:textSize">@dimen/text_size_scroll_list_unfocused</item>
+        <item name="android:paddingTop">@dimen/settings_list_text_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/settings_list_text_padding_vertical</item>
+    </style>
+    <style name="SettingsText.List.AppIconInnerLabel">
+        <item name="android:layout_width">@dimen/app_icon_size_minus_margin</item>
+    </style>
+    <style name="SettingsText.List.AppIconInnerLabel.Bottom">
+        <item name="android:layout_marginBottom">@dimen/app_icon_list_margin_bottom</item>
+    </style>
+    <style name="SettingsText.List.AppIconLabel">
+        <item name="android:layout_width">@dimen/app_icon_size</item>
+    </style>
+    <style name="SettingsText.List.CenterLeft">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="SettingsWindowAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:fragmentOpenEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentOpenExitAnimation">@anim/settings_fragment_fade_out</item>
+        <item name="android:fragmentCloseEnterAnimation">@anim/settings_fragment_fade_in</item>
+        <item name="android:fragmentCloseExitAnimation">@anim/settings_fragment_fade_out</item>
+    </style>
+    <style name="SetupFragmentFrame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="SetupFragmentFrame.Clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="SetupList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="SetupListDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/quiet</item>
+    </style>
+    <style name="SetupListHeader" parent="@android:attr/textAppearanceListItem">
+        <item name="android:textSize">@dimen/text_size_scroll_list_header_focused</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/quiet</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetupPane">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">@dimen/remote_settings_pane_padding</item>
+        <item name="android:paddingEnd">@dimen/remote_settings_pane_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="SetupPane.Left">
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="SetupPane.Right">
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="SetupText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/text_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/text_padding_vertical</item>
+        <item name="android:textColor">@color/normal</item>
+    </style>
+    <style name="SetupText.Center">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SetupText.Center.Header">
+        <item name="android:textSize">@dimen/text_size_heading2</item>
+    </style>
+    <style name="SetupText.Center.Header.Quiet">
+        <item name="android:textColor">@color/quiet</item>
+    </style>
+    <style name="SetupText.Center.Hint">
+        <item name="android:textSize">@dimen/text_size_hint</item>
+        <item name="android:textColor">@color/quiet</item>
+    </style>
+    <style name="SetupText.Input">
+        <item name="android:textSize">@dimen/text_size_scroll_list_focused</item>
+        <item name="android:focusable">true</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="SetupText.LeftPane">
+        <item name="android:gravity">end</item>
+    </style>
+    <style name="SetupText.LeftPane.Description">
+        <item name="android:textSize">@dimen/text_size_description</item>
+    </style>
+    <style name="SetupText.LeftPane.Header">
+        <item name="android:textSize">@dimen/text_size_heading</item>
+    </style>
+    <style name="SetupText.LeftPane.Hint">
+        <item name="android:textSize">@dimen/text_size_hint</item>
+    </style>
+    <style name="SetupText.LeftPane.Hint.Quiet">
+        <item name="android:textColor">@color/quiet</item>
+    </style>
+    <style name="SetupText.LeftPane.List">
+        <item name="android:textSize">@dimen/text_size_scroll_list_focused</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetupText.LeftPane.List.Quiet">
+        <item name="android:textColor">@color/quiet</item>
+    </style>
+    <style name="SetupText.RightPane">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="SetupText.RightPane.List">
+        <item name="android:textSize">@dimen/text_size_scroll_list_focused</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SetupText.RightPane.List.Choice">
+        <item name="android:textSize">@dimen/text_size_scroll_list_unfocused</item>
+        <item name="android:textColor">@color/text_focused_bright</item>
+    </style>
+    <style name="SetupText.RightPane.List.Quiet">
+        <item name="android:textColor">@color/quiet</item>
+    </style>
+    <style name="TextPair">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Theme.Leanback" parent="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <style name="Theme.Leanback.FormWizard.Solid" parent="@android:style/Theme.Leanback.FormWizard">
+        <item name="android:windowBackground">@color/settings_background</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowAnimationStyle">@style/SettingsWindowAnimationStyle</item>
+    </style>
+    <style name="Theme.Leanback.FormWizard.Transparent" parent="@android:style/Theme.Leanback.FormWizard">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <style name="Theme.Settings" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@color/settings_background</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowAnimationStyle">@style/SettingsWindowAnimationStyle</item>
+    </style>
+    <style name="Theme.Settings.BluetoothPairing" parent="@style/SettingsStyle.TextAppearanceMedium">
+        <item name="android:textSize">@dimen/text_size_description</item>
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="pin_dialog_animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/pin_dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/pin_dialog_exit</item>
+    </style>
+</resources>

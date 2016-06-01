@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:state_pressed="true"
+ android:drawable="@drawable/rec_start_pressed"></item>
+ <item android:state_focused="true"
+ android:drawable="@drawable/rec_start_focus"></item>
+ <item android:state_enabled="false"
+     android:drawable="@drawable/rec_start_disable" />
+ <item android:drawable="@drawable/rec_start_normal"></item>
+</selector>

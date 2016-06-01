@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sony.dtv.tvcamera"
+    android:versionCode="63"
+    android:versionName="2.43" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="com.sony.dtv.tvplayer.permission.DECIMATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.sony.dtv.tvinput.provider.permission.READ_DATA" />
+    <uses-permission android:name="com.sony.dtv.permission.READ_MODEL_VARIATION_INFO" />
+    <uses-permission android:name="com.sony.dtv.camerarecognitionservice.permission.USE_RECOGNITION_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="com.sony.dtv.permission.MTPF" />
+
+    <application
+        android:name="com.sony.dtv.tvcamera.app.TVCameraApp"
+        android:allowBackup="true"
+        android:banner="@drawable/home_tv_camera"
+        android:icon="@drawable/apps_tv_camera_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sony.dtv.tvcamera.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <uses-library android:name="com.sony.dtv.tvinput.provider.util" />
+        <uses-library android:name="com.sony.dtv.camerarecognition" />
+
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.PreMainActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:taskAffinity="com.sony.dtv.tvcamera.app.PreMainActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.MirrorActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.PhotoActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.EnjoyActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:taskAffinity="com.sony.dtv.tvcamera.app.EnjoyActivity" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.SmileIntroActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:taskAffinity="com.sony.dtv.tvcamera.app.SmileIntroActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.SecCameraIntroActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:taskAffinity="com.sony.dtv.tvcamera.app.SecCameraIntroActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.SettingActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.PhotoSettingActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.TVCameraSettingActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:taskAffinity="com.sony.dtv.tvcamera.app.TVCameraSettingActivity" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.permission.CriticalPermissionPromptActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.permission.NoncriticalPermissionPromptActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true" />
+        <activity
+            android:name="com.sony.dtv.tvcamera.app.permission.ManageCriticalPermissionExtActivity"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:finishOnTaskLaunch="true"
+            android:theme="@style/Custom_Theme_Transparent" />
+
+        <service
+            android:name="com.sony.dtv.tvcamera.extension.TvAppExtension"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.sony.dtv.action.extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="extension-data"
+                android:resource="@raw/tvappmenu" />
+        </service>
+        <service
+            android:name="com.sony.dtv.tvcamera.extension.CameraExtension"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.sony.dtv.action.extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="extension-data"
+                android:resource="@raw/cameramenu" />
+        </service>
+        <service
+            android:name="com.sony.dtv.tvcamera.extension.PhotoExtension"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.sony.dtv.action.extension" />
+            </intent-filter>
+
+            <meta-data
+                android:name="extension-data"
+                android:resource="@raw/photomenu" />
+        </service>
+        <service android:name="com.sony.dtv.tvcamera.app.CameraRecognitionService" />
+        <service android:name="com.sony.dtv.tvcamera.app.SecurityCameraService" />
+        <service android:name="com.sony.dtv.tvcamera.app.SonyCameraNotifyService" />
+
+        <receiver android:name="com.sony.dtv.tvcamera.notification.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

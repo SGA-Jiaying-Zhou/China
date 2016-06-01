@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="intro_text_description_lines">4</integer> 
+    
+      <!-- Pin dialog -->
+    <integer name="pin_dialog_anim_duration">250</integer>
+    <integer name="pin_dialog_enter_offset_y">32</integer>
+    <integer name="pin_dialog_exit_offset_y">32</integer>
+    <integer name="pin_number_scroll_duration">250</integer>
+    <integer name="pin_number_scroll_anim_duration">125</integer>
+</resources>

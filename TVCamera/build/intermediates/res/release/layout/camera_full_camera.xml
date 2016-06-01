@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/full_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+
+        <TextureView
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <RelativeLayout
+            android:id="@+id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:background="#991a1a1a">
+
+            <Button
+                android:id="@+id/setting"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:focusable="false"
+                android:background="@drawable/setting_button" />
+
+            <Button
+                android:id="@+id/to_photo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/setting"
+                android:focusable="false"
+                android:background="@drawable/switching_video_button" />
+
+            <Button
+                android:id="@+id/mirror"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/to_photo"
+                android:focusable="false"
+                android:background="@drawable/mirror_button" />
+
+            <Button
+                android:id="@+id/switch_window"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/mirror"
+                android:focusable="false"
+                android:background="@drawable/screen_03_button" />
+
+            <Button
+                android:id="@+id/album"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="25dp"
+                android:layout_toLeftOf="@+id/camera_capture"
+                android:layout_marginTop="5dp"
+                android:focusable="false"
+                android:background="@drawable/movie_button" />
+
+            <Button
+                android:id="@+id/camera_capture"
+                android:layout_width="@dimen/bt_width"
+                android:layout_height="@dimen/bt_height"
+                android:layout_marginRight="15dp"
+                android:text="@string/rec_start"
+                android:textColor="@color/rec_text_normal"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_rec_item"
+                android:background="@drawable/rec_start_button"
+                android:focusable="false"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/head_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/recoding_img"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/rec_status"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/recoding_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/recoding_img"
+            android:layout_marginTop="3dp"
+            android:background="@android:color/transparent"
+            android:text="00:00:00"
+            android:textSize="@dimen/text_size_current_time_item"
+            android:textColor="@color/c1"
+            android:gravity="left"
+            android:shadowColor="@color/c5"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_current_time_item"
+            android:gravity="right"
+            android:textColor="@color/c1"
+            android:shadowColor="@color/c5"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="1"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="6dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/prepare_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/launch_background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/video_mode"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_video_mode" />
+
+        <TextView
+            android:id="@+id/video_mode_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_mode"
+            android:layout_centerHorizontal="true"
+            android:text="@string/video"
+            android:textSize="@dimen/intro_header_title_text_size" />
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/home/zhoujy/merge/FY16/China/TVCamera/res/layout/camera_full_camera.xml -->

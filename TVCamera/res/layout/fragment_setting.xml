@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="48dp"
+        >
+
+    <TextView
+        android:id="@+id/setting_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        android:maxWidth="304dp"
+        android:textColor="#7ff0f0f0"
+        android:textStyle="normal"
+        android:text="@string/setting_msg" />
+    <TextView
+        android:id="@+id/setting_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:maxWidth="304dp"
+        android:textColor="#fff0f0f0"
+        android:text="@string/setting_title" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_option"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/tip_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+
+        <TextView
+            android:id="@+id/tip_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#7ff0f0f0"
+            android:textStyle="normal"
+            android:text="@string/smile_shutter_tip" />
+    </FrameLayout>
+</RelativeLayout>
